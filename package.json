@@ -1,17 +1,25 @@
 {
-  "devDependencies": {
-    "@babel/cli": "^7.10.4",
-    "@babel/core": "^7.10.4",
-    "babel-loader": "^8.1.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
-  },
   "name": "websocket-class",
+  "description": "WebSocketClass是基于原生的基础上扩展的心跳和重连机制进行一次封装的，是基于ES6 class的方式,进行封装",
   "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "NODE_ENV=production webpack",
     "dev": "NODE_ENV=development webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lerbron/websocket-class"
+  },
+  "keywords": [
+    "Websocket"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
   }
 }
